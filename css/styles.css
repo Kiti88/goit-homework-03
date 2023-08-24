@@ -20,6 +20,9 @@ img {
         padding: 0 15px 0 15px;
         align-items: center;
 }
+.first-class {
+        display: flex;
+        }
 .search {
         display: flex;
         align-items: center;
