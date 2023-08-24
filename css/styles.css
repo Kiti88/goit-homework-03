@@ -2,7 +2,9 @@ body {
         font-family: "Roboto", sans-serif;
         color: #434455;
         background-color: #FFFFFF;
-        
+}
+img {
+         display: block;
 }
 .link {
         text-decoration: none;
@@ -10,11 +12,17 @@ body {
  .heder-content {
         border-bottom: 1px solid #e7e9fc;
         display: flex;
-        }
+}
+.container-header {
+        display: flex;
+        width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+}
 .search {
         display: flex;
         align-items: center;
-        }
+}
 .logotip {
         font-family: "Raleway", sans-serif;
         color: #4d5ae5;
@@ -25,7 +33,6 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-right: 76px;
-        
 }
 .span {
         color: #2e2f42;
@@ -37,7 +44,6 @@ body {
 .listnav-page {
         display: flex;
         gap: 40px;
-
         }
 .address-list-link:hover {
         color: #404bbf;
@@ -59,13 +65,13 @@ body {
 }
 .last {
         margin-right: 0;
-        }
+}
 .gallery {
        color: #2e2f42;         
 }
 .more {
         padding: 24px 0;
-        }
+}
 .gallery:hover {
         color: #404bbf;
 }
@@ -139,21 +145,25 @@ body {
 }
 .section-text {
         padding: 120px 0;
-        
-        }
+}
+.visually-hidden {
+        position: fixed;
+        transform: scale(0);
+}
 .list-text {
         list-style-type: none;
         margin: 0;
         padding-left: 0;
         display: flex;
-        }
+        gap: 24px;
+}
 .entry {
         width: calc((100% - 72px) / 4);
-
-        }
+}
 .preview {
         margin-right: 24px;
-        }
+        width: calc((100% - 72px) / 4);
+}
 .article-title {
         color: var(--navyblue, #2E2F42);
         text-transform: capitalize;
@@ -170,7 +180,6 @@ body {
 .desc {
         line-height: 1.2;
         margin-bottom: 8px;
-        
 }
 .article-txt {
         color: var(--slate, #434455);
@@ -223,14 +232,13 @@ body {
         display: flex;
         flex-wrap: wrap;
         row-gap: 48px;
-        }
+}
 .item-portfolio {
         margin-right: 24px;
-        стиль width: calc((100% - 48px) / 3);
-        }
+        width: calc((100% - 48px) / 3);
+}
 .author-article-img {
         background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
-        
 }
 .caption {
         line-height: 1.2;
@@ -244,10 +252,10 @@ body {
 }
 .section-portfolio {
         padding: 120px 0 120px 0;
-        }
+}
 .list-item-text {
         text-align: center;
-        }
+}
 .footer-txt {
         color: var(--cloud, #F4F4FD);
         /* Body */
@@ -264,9 +272,9 @@ body {
         padding: 100px 0;
 }
 .link-footer {
-                color: #f4f4fd;
-        }
+        color: #f4f4fd;
+}
 .footer-slogan {
         display: inline-block;
         margin-bottom: 16px;
-        }
+}
