@@ -247,6 +247,7 @@ img {
         display: flex;
         flex-wrap: wrap;
         row-gap: 48px;
+        column-gap: 24px;
 }
 .item-portfolio {
         margin-right: 24px;
